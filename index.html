@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lobbyguy - Clothing Brand</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <h1>Lobbyguy</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h2>Welcome to Lobbyguy</h2>
+    <p>Your style, your way.</p>
+    <button onclick="shopNow()">Shop Now</button>
+  </section>
+
+  <section id="shop" class="shop">
+    <h2>Shop</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://via.placeholder.com/150" alt="Product 1">
+        <h3>Product 1</h3>
+        <p>$29.99</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/150" alt="Product 2">
+        <h3>Product 2</h3>
+        <p>$39.99</p>
+      </div>
+      <div class="product">
+        <img src="https://via.placeholder.com/150" alt="Product 3">
+        <h3>Product 3</h3>
+        <p>$49.99</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>Lobbyguy is a premium clothing brand dedicated to providing high-quality, stylish apparel for everyone. Our mission is to make you look and feel your best.</p>
+  </section>
+
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Custom Tailoring</li>
+      <li>Fast Shipping</li>
+      <li>Easy Returns</li>
+      <li>24/7 Customer Support</li>
+    </ul>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Lobbyguy. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
